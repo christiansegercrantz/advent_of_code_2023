@@ -16,7 +16,8 @@
 				"julialang.language-julia",
 				"0h7z.vscode-julia-format",
 				"colinfang.markdown-julia",
-				"haberdashPI.python-in-julia"
+				"haberdashPI.python-in-julia",
+				"mechatroner.rainbow-csv"
 			]
 		}
 	},

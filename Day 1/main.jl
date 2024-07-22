@@ -2,8 +2,8 @@ using DelimitedFiles
 
 
 
-function parse_digits(txt, text = false)::String
-	pat = !text ? r"(\d)" : r"(\d|one|two|three|four|five|six|seven|eight|nine)"
+function parse_digits(txt, include_char_digits = false)::String
+	pat = !include_char_digits ? r"(\d)" : r"(\d|one|two|three|four|five|six|seven|eight|nine)"
 	numbers = [match.match for match in eachmatch(pat, txt, overlap = true)]
 	return first(numbers) * last(numbers)
 end
