@@ -57,14 +57,8 @@ function main(data)
 
 	println("Sum: ", sum)
 
-	# raw_string = "Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green"
-
-
-
-
-	# input =  Dict{String, Integer}("red" => 3, "green" => 13, "blue" => 100)
 end
 
-data = readdlm("./Day 2/input.csv", '\n')
+data = readdlm("./Day2/input.csv", '\n')
 
 main(data)

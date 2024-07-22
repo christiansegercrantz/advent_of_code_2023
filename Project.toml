@@ -1,0 +1,12 @@
+name = "advent_of_code_2023"
+uuid = "d8a64bbc-5dd2-4121-98c6-1b73d3243c45"
+
+[deps]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+# [extras]
+# Test = ["Test"]
+
+# [targets]
+# test = ["Test"]

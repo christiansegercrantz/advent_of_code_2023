@@ -13,7 +13,7 @@ function replace_string_with_integers(txt)::String
 end
 
 function main()
-	array_txt = readdlm("./Day 1/input.csv")
+	array_txt = readdlm("./Day1/input.csv")
 
 	# array_txt = split(long_txt, "\n")
 	sum = 0
